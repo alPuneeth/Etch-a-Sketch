@@ -16,6 +16,10 @@ A browser-based Etch-a-Sketch drawing grid built with HTML, CSS, and JavaScript 
 - CSS3
 - JavaScript
 
+## Live Demo
+
+Try it here: [Etch a Sketch](https://alpuneeth.github.io/Etch-a-Sketch/)
+
 ## Getting Started
 
 1. Clone the repository:
