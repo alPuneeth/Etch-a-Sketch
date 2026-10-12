@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #b0c2fb;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+}
+
+
+.single-square {
+    background-color: #fff8d2;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(54, 53, 53);
+}
+
+.prompt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.prompt button {
+    color: rgb(251, 252, 254);
+    background-color: rgb(37, 158, 251);
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    border: 1px solid black;
+}
+
+
+button:hover {
+    color: black;
+    background-color: #FCC889;
+    transform: scale(1.1);
+}
+
+
+button {
+    transition: transform 0.2s ease;
+    border-radius: 20px;
+}
